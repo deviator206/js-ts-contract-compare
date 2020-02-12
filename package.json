@@ -1,0 +1,16 @@
+{
+  "name": "js-ts-contract-compare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deviator206/js-ts-contract-compare.git",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^2.19.2",
+    "ast-types": "^0.13.2",
+    "babylon": "^6.18.0",
+    "find": "^0.3.0"
+  },
+  "scripts": {
+    "test": "node compare.js"
+  }
+}
